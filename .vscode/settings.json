@@ -1,0 +1,36 @@
+{
+    "folder-customization.folders": [
+        {
+            "path": "SE67\\frontend\\public\\"
+        },
+        {
+            "path": "SE67\\frontend\\src\\assets\\",
+            "color": "foldercustomization.AnsiColor0",
+            "badge": "AS"
+        },
+        {
+            "path": "SE67\\frontend\\src\\components\\",
+            "color": "foldercustomization.AnsiColor9",
+            "badge": "CP"
+        },
+        {
+            "path": "SE67\\frontend\\src\\interface\\",
+            "color": "foldercustomization.AnsiColor2",
+            "badge": "IN"
+        },
+        {
+            "path": "SE67\\frontend\\src\\pages\\",
+            "color": "foldercustomization.AnsiColor12",
+            "badge": "P"
+        },
+        {
+            "path": "SE67\\frontend\\src\\services\\",
+            "color": "foldercustomization.AnsiColor227",
+            "badge": "SV"
+        },
+        {
+            "path": "SE67\\frontend\\node_modules\\",
+            "badge": "😆"
+        }
+    ]
+}

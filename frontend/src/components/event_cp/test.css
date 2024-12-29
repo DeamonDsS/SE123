@@ -1,0 +1,129 @@
+/* โครงสร้างพื้นฐานของ Sidebar */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    overflow-y: auto;
+    transition: width 0.3s ease;
+    scrollbar-width: none;
+    z-index: 1;
+  }
+  
+  .sidebar.open {
+    width: 250px;
+   
+  }
+  
+  .sidebar:not(.open) {
+    width: 0px;
+  }
+  
+  .toggle-button {
+  
+    cursor: pointer;
+  }
+  /* .toggle-button:not(.open){
+    transform: translate(200px,150px);
+  } */
+  .toggle-button.open{
+    transform: translate(200px,150px);
+  }
+  .sidebar-content {
+    padding: 20px;
+  }
+  
+  .menu-section {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #bdbdbd;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: #291717;
+    color: #fff;
+  }
+  
+  .menu-item span {
+    margin-left: 10px;
+  }
+  
+  .menu-options {
+    margin-left: auto;
+    color: #888;
+  }
+  
+  .menu-section h4 {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .upgrade {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #ffd700;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .upgrade:hover {
+    background-color: #444;
+  }
+  .under{
+    transform: translate(20px,580px);
+    bottom: 0;
+  }
+  .toggle-button {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .content {
+    transition: margin-left 0.3s ease; /* Smooth transition for content movement */
+    margin-left: 0;/* Initial margin when sidebar is open */
+  }
+  
+  .content.shifted {
+    margin-left: 250px;
+    /* Content shifts to the left when sidebar is closed */
+  }
+.sidebariconopen{
+  font-size: 32px;
+  margin: 10px;
+  
+}
+.sidebaricon2open{
+display: none;
+  
+}
+.sidebariconclosed{
+  font-size: 32px;
+  margin: 10px;
+
+
+}
+.sidebaricon2closed{
+  font-size: 32px;
+  margin: 10px;
+
+
+}

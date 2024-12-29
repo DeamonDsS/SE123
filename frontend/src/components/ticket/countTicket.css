@@ -1,0 +1,34 @@
+.count-base{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    border: 3px solid black;
+    align-items: center;
+}
+
+.count-head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.ticket-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.count-body{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.number-ticket{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}

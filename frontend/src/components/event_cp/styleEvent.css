@@ -1,0 +1,107 @@
+.evetbox{
+    background-color: #AF7373;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.wrapperCreadEvant{
+   padding: 0 10px;
+    background-color: #D9D9D9;
+    border: 1px solid #3836361f;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    width: 670px;
+    height: 106px ;
+    
+}
+#picCardEveat{
+    border-radius: 12px;
+    height: 85px;
+    width: 143px;
+    border: 1px solid #3836361f;
+}
+.headBoxEv{
+    display: flex;
+  
+}
+.inheadBoxEv{
+    padding: 0 20px 0 ;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: space-between
+}
+.deleteEVbt{
+    color: red;
+    border: 0;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+.deleteEVbt:hover{
+    color: rgb(133, 3, 3);
+}
+.tailBoxEv{
+    display: flex;
+    align-items: center;
+    justify-self: end;
+}
+.editEVbt{
+    color: rgb(0, 0, 0);
+    border: 0;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+.editEVbt:hover{
+    
+    color: rgb(73, 63, 63);
+
+}
+
+
+.pagination {
+   position: fixed;
+   bottom: 60px;
+   right: 40%;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .pagination button.active {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  .addicon{
+    color: #D9D9D9;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  .Event{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 80px;
+      
+
+}
